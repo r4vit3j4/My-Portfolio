@@ -1,7 +1,7 @@
 export const projects = [
   {
     name: "Twitter Clone",
-    image: "https://i.ibb.co/34k5MP3/twitter.png",
+    image: "https://i.ibb.co/7WwFCzB/twitter.png",
     content:
       "A clone of twitter with Next Auth sign in and ability to share tweets connected to firebase backend",
     site: "https://twitter-clone-r4vit3j4.vercel.app/",
@@ -29,7 +29,7 @@ export const projects = [
     name: "Uber Clone (Mobile)",
     image: "https://i.ibb.co/m5wky1m/uber.jpg",
     content:
-      "A clone of twitter with Next Auth sign in and ability to share tweets connected to firebase backend",
+      "A Clone of Uber made with React Native with integration of Google Maps API and Google Distance Matrix API",
     site: "https://instagram-clone-r4vit3j4.vercel.app/",
     github: "https://github.com/r4vit3j4/instagram-clone",
     tags: [
@@ -49,9 +49,9 @@ export const projects = [
   },
   {
     name: "Netflix Clone",
-    image: "https://i.ibb.co/X2T9JYn/netflix.png",
+    image: "https://i.ibb.co/d5JWRp1/netflix.png",
     content:
-      "A clone of twitter with Next Auth sign in and ability to share tweets connected to firebase backend",
+      "A clone of Netflix with Firebase sign in integrated with Stripe payments gateway and the TMDB API",
     site: "https://netflix-clone-95057.web.app/",
     github: "https://github.com/r4vit3j4/instagram-clone",
     tags: [
@@ -75,9 +75,9 @@ export const projects = [
   },
   {
     name: "Instagram Clone",
-    image: "https://i.ibb.co/Pg8pY8m/instagram.png",
+    image: "https://i.ibb.co/r7rv9cg/instagram.png",
     content:
-      "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+      "A Clone of Instagram which includes Next Auth sign in with the ability to share posts connected with firebase backend",
     site: "https://instagram-clone-r4vit3j4.vercel.app/",
     github: "https://github.com/r4vit3j4/instagram-clone",
     tags: [
@@ -97,9 +97,9 @@ export const projects = [
   },
   {
     name: "Amazon Clone",
-    image: "https://i.ibb.co/PGGgsF3/amazon.png",
+    image: "https://i.ibb.co/gW0FB92/amazon.png",
     content:
-      "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+      "A Clone of Amazon which includes Next Auth Sign In and Stripe payments gateway",
     site: "https://amazon-clone-r4vit3j4.vercel.app/",
     github: "https://github.com/r4vit3j4/amazon-clone",
     tags: [
@@ -123,9 +123,8 @@ export const projects = [
   },
   {
     name: "Airbnb Clone",
-    image: "https://i.ibb.co/w4S02R6/airbnb.png",
-    content:
-      "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+    image: "https://i.ibb.co/BqvK3JL/airbnb.png",
+    content: "A Simple Airbnb clone with MapBox Maps API integration",
     site: "https://airbnb-clone-r4vit3j4.vercel.app/",
     github: "https://github.com/r4vit3j4/airbnb-clone",
     tags: [
