@@ -1,10 +1,5 @@
 import React, { useEffect, useState } from "react";
-import {
-  HandIcon,
-  MailIcon,
-  DeviceMobileIcon,
-  TrendingUpIcon,
-} from "@heroicons/react/outline";
+import { HandIcon, MailIcon, DeviceMobileIcon } from "@heroicons/react/outline";
 import { GithubFill, InstagramFill, LinkedinBoxFill } from "akar-icons";
 import { useInView } from "react-intersection-observer";
 import { motion, useAnimation } from "framer-motion";
@@ -25,7 +20,6 @@ const Contact = () => {
         transition: {
           type: "tween",
           duration: 0.3,
-          // delay: 0.1,
         },
       });
     }
@@ -48,7 +42,10 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact" className="px-10 pt-10 min-h-[75vh] overflow-hidden">
+    <div
+      id="contact"
+      className="px-10 bg-[#f0f0f0] pt-10 min-h-[75vh] overflow-hidden"
+    >
       <div className="mt-10">
         <h2 className="text-5xl text-center font-semibold text-gray-800 underline tracking-tight">
           Feel Free to Say Hi{" "}
@@ -92,13 +89,13 @@ const Contact = () => {
           <InstagramFill className="h-10 w-10" />
           <p className="font-medium">Instagram</p>
         </a>
-        <a
+        <span
           onClick={() => handleClick()}
           className="cursor-pointer inline-flex flex-col items-center h-24 w-24 justify-center  hover:bg-gray-200 p-2 rounded-md"
         >
           <DeviceMobileIcon className="h-10 w-10 font-light" />
           <p className="font-medium">Mobile</p>
-        </a>
+        </span>
       </motion.div>
       <p
         className={`whitespace-nowrap mt-5 text-center text-xl font-medium ${

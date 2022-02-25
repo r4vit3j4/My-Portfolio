@@ -45,7 +45,11 @@ const Welcome = () => {
       </div>
       <div className="absolute bottom-11 right-3 sm:bottom-0 sm:right-10">
         <div className="relative h-8 w-8">
-          <Image src="https://i.ibb.co/BnT8zVY/arrow.webp" layout="fill" />
+          <Image
+            src="https://i.ibb.co/q9VzVLS/arrow-compressed.webp"
+            layout="fill"
+            alt=""
+          />
         </div>
       </div>
     </div>

@@ -14,7 +14,8 @@ const Header = () => {
         <div className="relative h-16 w-16 object-contain flex-shrink-0">
           <Image
             className="object-contain"
-            src={"https://i.ibb.co/9tBGFF6/Test-1.png"}
+            src={"https://i.ibb.co/F6QxJwH/logo.png"}
+            alt="logo"
             layout="fill"
           />
         </div>
@@ -44,5 +45,4 @@ const Header = () => {
     </div>
   );
 };
-// https://i.ibb.co/9tBGFF6/Test-1.png
 export default Header;

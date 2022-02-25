@@ -16,7 +16,7 @@ const Footer = () => {
   }, []);
 
   return (
-    <div className="relative">
+    <div className="relative bg-[#f0f0f0]">
       <div className="text-center relative mb-4 text-lg">
         <p className="relative w-fit mx-auto">
           Designed and Created by{" "}

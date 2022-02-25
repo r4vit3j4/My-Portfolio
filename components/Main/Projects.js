@@ -23,7 +23,6 @@ const Projects = () => {
         transition: {
           type: "tween",
           duration: 0.3,
-          // delay: 0.1,
         },
       });
     }

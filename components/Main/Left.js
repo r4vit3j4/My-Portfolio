@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 import Header from "../Header/Header";
 import Welcome from "./Welcome";
@@ -18,8 +17,8 @@ const Left = () => {
           opacity: 1,
           y: 0,
           transition: {
-            delay: 0.5,
-            duration: 0.5,
+            delay: 0.3,
+            duration: 0.4,
           },
         },
       }}

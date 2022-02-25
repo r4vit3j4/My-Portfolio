@@ -74,15 +74,17 @@ const Skills = () => {
               <Tab.Panel className="flex mt-10 sm:mt-20 items-center justify-evenly flex-wrap gap-5">
                 {skills.languages.map((obj) => (
                   <div
-                    className="flex text-sm w-36 p-4 flex-col items-center"
                     key={obj.name}
+                    className="flex text-sm flex-col items-center"
                   >
-                    <Image
-                      className="object-contain"
-                      src={obj.logo}
-                      height={50}
-                      width={50}
-                    />
+                    <div className="relative h-16 w-16">
+                      <Image
+                        className="object-contain h-14 w-14"
+                        src={obj.logo}
+                        layout="fill"
+                        alt=""
+                      />
+                    </div>
                     <p className="mt-2">{obj.name}</p>
                   </div>
                 ))}
@@ -90,15 +92,17 @@ const Skills = () => {
               <Tab.Panel className="flex mt-10 sm:mt-20 items-center justify-evenly flex-wrap gap-5">
                 {skills.frameworks.map((obj) => (
                   <div
-                    className="flex text-sm w-36 p-4 flex-col items-center"
                     key={obj.name}
+                    className="flex text-sm flex-col items-center"
                   >
-                    <Image
-                      className="object-contain"
-                      src={obj.logo}
-                      height={50}
-                      width={50}
-                    />
+                    <div className="relative h-16 w-16">
+                      <Image
+                        className="object-contain h-14 w-14"
+                        src={obj.logo}
+                        layout="fill"
+                        alt=""
+                      />
+                    </div>
                     <p className="mt-2">{obj.name}</p>
                   </div>
                 ))}
@@ -106,15 +110,17 @@ const Skills = () => {
               <Tab.Panel className="flex mt-10 sm:mt-20 items-center justify-evenly flex-wrap gap-5">
                 {skills.databases.map((obj) => (
                   <div
-                    className="flex text-sm w-36 p-4 flex-col items-center"
                     key={obj.name}
+                    className="flex text-sm flex-col items-center"
                   >
-                    <Image
-                      className="object-contain"
-                      src={obj.logo}
-                      height={50}
-                      width={50}
-                    />
+                    <div className="relative h-16 w-16">
+                      <Image
+                        className="object-contain h-14 w-14"
+                        src={obj.logo}
+                        layout="fill"
+                        alt=""
+                      />
+                    </div>
                     <p className="mt-2">{obj.name}</p>
                   </div>
                 ))}
@@ -122,15 +128,17 @@ const Skills = () => {
               <Tab.Panel className="flex mt-10 sm:mt-20 items-center justify-evenly flex-wrap gap-5">
                 {skills.tools.map((obj) => (
                   <div
-                    className="flex text-sm w-36 p-4 flex-col items-center"
                     key={obj.name}
+                    className="flex text-sm flex-col items-center"
                   >
-                    <Image
-                      className="object-contain"
-                      src={obj.logo}
-                      height={50}
-                      width={50}
-                    />
+                    <div className="relative h-16 w-16">
+                      <Image
+                        className="object-contain h-14 w-14"
+                        src={obj.logo}
+                        layout="fill"
+                        alt=""
+                      />
+                    </div>
                     <p className="mt-2">{obj.name}</p>
                   </div>
                 ))}
