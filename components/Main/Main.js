@@ -8,7 +8,7 @@ function Main() {
       <div>
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:min-h-screen">
           <Left />
-          {/* <Right /> */}
+          <Right />
         </div>
       </div>
     </div>
