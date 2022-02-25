@@ -28,6 +28,7 @@ const Welcome = () => {
       </div>
       <div className="mt-7">
         <a
+          rel="noreferrer"
           href="https://drive.google.com/file/d/1uLaPPJBCkH-T_RmtgV75j3PLhr5b02ze/view?usp=sharing"
           target={"_blank"}
           className="px-3 py-2 font-bold bg-gray-600 text-white rounded-lg hover:bg-gray-700 shadow-md"
@@ -38,9 +39,9 @@ const Welcome = () => {
       <div className="mt-10">
         <h3 className="font-bold text-xl text-gray-700">About Me</h3>
         <p className="text-lg mt-2">
-          I'm an undergraduate student from Indian Institute of Information
-          Technology, Kottayam, pursuing Bachelor's degree in computer science
-          and engineering
+          I&apos;m an undergraduate student from Indian Institute of Information
+          Technology, Kottayam, pursuing Bachelor&apos;s degree in computer
+          science and engineering
         </p>
       </div>
       <div className="absolute bottom-11 right-3 sm:bottom-0 sm:right-10">

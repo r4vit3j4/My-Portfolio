@@ -58,6 +58,7 @@ const Contact = () => {
         className="mt-24 md:mt-32 w-full flex flex-wrap gap-5 gap-y-10 items-center justify-evenly"
       >
         <a
+          rel="noreferrer"
           href="mailto:itsraviteja.r@gmail.com"
           className="inline-flex flex-col items-center h-24 w-24 justify-center  hover:bg-gray-200 p-2 rounded-md"
           target={"_blank"}
@@ -66,6 +67,7 @@ const Contact = () => {
           <p className="font-medium">Mail me</p>
         </a>
         <a
+          rel="noreferrer"
           href="https://github.com/r4vit3j4"
           className="inline-flex flex-col items-center h-24 w-24 justify-center  hover:bg-gray-200 p-2 rounded-md"
           target={"_blank"}
@@ -74,6 +76,7 @@ const Contact = () => {
           <p className="font-medium">Github</p>
         </a>
         <a
+          rel="noreferrer"
           href="https://www.linkedin.com/in/ravi-teja-726685230/"
           className="inline-flex flex-col items-center h-24 w-24 justify-center hover:bg-gray-200 p-2 rounded-md"
           target={"_blank"}
@@ -82,6 +85,7 @@ const Contact = () => {
           <p className="font-medium">Linked In</p>
         </a>
         <a
+          rel="noreferrer"
           href="https://instagram.com/_r4vit3j4"
           className="inline-flex flex-col items-center h-24 w-24 justify-center  hover:bg-gray-200 p-2 rounded-md"
           target={"_blank"}

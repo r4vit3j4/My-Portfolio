@@ -87,6 +87,7 @@ const Projects = () => {
                 </div>
                 <div className="mt-7 flex items-center space-x-3">
                   <a
+                    rel={"noreferrer"}
                     href={obj.site}
                     target={"_blank"}
                     className="mb-3 w-fit flex items-center justify-center gap-1 bg-blue-600 py-2 px-3 text-sm text-white font-medium
@@ -98,6 +99,7 @@ const Projects = () => {
                     }
                   </a>
                   <a
+                    rel={"noreferrer"}
                     href={obj.github}
                     target={"_blank"}
                     className="mb-3 w-fit flex items-center justify-center gap-1 bg-slate-600 py-2 px-3 text-sm text-white font-medium
@@ -113,6 +115,7 @@ const Projects = () => {
       </motion.div>
       <div className="mx-auto text-center mt-14 ">
         <a
+          rel={"noreferrer"}
           href="https://github.com/r4vit3j4"
           target={"_blank"}
           className="bg-gray-600 inline-flex items-center gap-1 px-3 py-2 text-base  text-white rounded-lg hover:bg-gray-700"
