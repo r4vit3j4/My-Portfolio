@@ -69,11 +69,20 @@ const Projects = () => {
                   {obj.tags.map((tag) => (
                     <span
                       key={tag.name}
-                      className={`flex cursor-default items-center gap-1 bg-${tag.color}-500 text-sm text-white px-1 rounded-md`}
+                      className={`flex cursor-default items-center gap-1 text-sm text-white px-1 rounded-md ${
+                        tag.color == "gray"
+                          ? `bg-gray-500`
+                          : tag.color == "orange"
+                          ? `bg-orange-500`
+                          : tag.color == "blue"
+                          ? `bg-blue-500`
+                          : tag.color == "violet"
+                          ? `bg-violet-500`
+                          : ""
+                      }`}
                     >
                       <CircleFill className="h-[5px] w-[5px]" />
                       {tag.name}
-                      {console.log(tag.name, tag.color)}
                     </span>
                   ))}
                 </div>
