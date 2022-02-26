@@ -1,33 +1,67 @@
+import { DesktopComputerIcon } from "@heroicons/react/outline";
+import { Devices } from "akar-icons";
 import Image from "next/image";
 import React, { useState } from "react";
-import arrow from "../../Assets/base/arrow-compressed.webp";
 
 const Welcome = () => {
-  // const [isShown, SetIsShown] = useState(false);
-
   return (
-    <div className="p-10 mt-7 xl:mt-24 relative">
+    <div className="flex-1 flex flex-col justify-center p-10 mt-5">
       <div>
         <p className="text-5xl text-gray-500">Hi,</p>
         <h1 className="text-7xl text-gray-500 font-semibold">
           This is{" "}
-          <span
-            // onMouseOver={() => handleToolTip()}
-            id="name"
-            className="text-gray-900 inline-block underline z-50"
-          >
+          <span id="name" className="text-gray-900 inline-block underline z-50">
             Ravi Teja
           </span>
         </h1>
       </div>
       <div className="mt-14">
         <p className="text-lg">
-          A <span className="underline font-semibold">Software Developer</span>{" "}
-          and a <span className="underline font-semibold">Tech Enthusiast</span>{" "}
+          A{" "}
+          <span
+            id="sd"
+            className="underline relative font-semibold"
+            onMouseEnter={() => {
+              document.querySelector("#sdicon").classList.remove("hidden");
+            }}
+            onMouseLeave={() => {
+              document.querySelector("#sdicon").classList.add("hidden");
+            }}
+          >
+            Software Developer
+            <span>
+              {
+                <DesktopComputerIcon
+                  id="sdicon"
+                  className="h-7 w-7 hidden absolute bottom-7 left-[50%] -translate-x-[50%]"
+                />
+              }
+            </span>
+          </span>{" "}
+          and a{" "}
+          <span
+            onMouseEnter={() => {
+              document.querySelector("#devices").classList.remove("hidden");
+            }}
+            onMouseLeave={() => {
+              document.querySelector("#devices").classList.add("hidden");
+            }}
+            className="underline relative font-semibold"
+          >
+            Tech Enthusiast{" "}
+            <span>
+              {
+                <Devices
+                  id="devices"
+                  className="h-7 w-7 hidden absolute bottom-7 left-[50%] -translate-x-[50%]"
+                />
+              }
+            </span>
+          </span>{" "}
           with a keen interest in building web and mobile applications
         </p>
       </div>
-      <div className="mt-7">
+      <div className="sm:my-14 my-8">
         <a
           rel="noreferrer"
           href="https://drive.google.com/file/d/1uLaPPJBCkH-T_RmtgV75j3PLhr5b02ze/view?usp=sharing"
@@ -37,18 +71,13 @@ const Welcome = () => {
           See My Resume
         </a>
       </div>
-      <div className="mt-10">
+      <div className="mt-0">
         <p className="font-bold text-xl text-gray-700">About Me</p>
         <p className="text-lg mt-2">
           I&apos;m an undergraduate student from Indian Institute of Information
           Technology, Kottayam, pursuing Bachelor&apos;s degree in computer
           science and engineering
         </p>
-      </div>
-      <div className="absolute h-8 w-8 bottom-11 right-3 sm:bottom-1 sm:right-10">
-        <div className="relative h-8 w-8">
-          <Image className="" src={arrow} layout="fill" alt="" />
-        </div>
       </div>
     </div>
   );

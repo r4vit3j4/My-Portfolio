@@ -35,10 +35,7 @@ const Projects = () => {
   }, [animation, inView]);
 
   return (
-    <div
-      id="projects"
-      className="px-10 pt-5 min-h-[75vh] bg-[#f0f0f0] overflow-hidden"
-    >
+    <div id="projects" className="px-10 py-14 bg-[#f0f0f0] overflow-hidden">
       <div className="">
         <h2 className="text-5xl font-semibold underline tracking-tight">
           Projects
@@ -55,6 +52,7 @@ const Projects = () => {
                 <Image
                   className="rounded-t-lg object-cover h-full mx-auto"
                   src={obj.image}
+                  loading="eager"
                   layout="fill"
                   alt=""
                 />

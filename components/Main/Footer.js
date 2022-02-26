@@ -36,10 +36,6 @@ const Footer = () => {
           </span>
         </p>
       </div>
-      {/* <div className="absolute flex space-x-2 items-center bottom-2 right-2">
-        <HeartIcon className="cursor-pointer inline h-6 w-6" />
-        <p>12 Likes</p>
-      </div> */}
     </div>
   );
 };

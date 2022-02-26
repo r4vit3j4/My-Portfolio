@@ -37,10 +37,7 @@ const Skills = () => {
   }, [animation, inView]);
 
   return (
-    <div
-      id="skills"
-      className="px-10 pt-5 min-h-[65vh] bg-[#f0f0f0] overflow-x-hidden"
-    >
+    <div id="skills" className="px-10 py-14 bg-[#f0f0f0] overflow-x-hidden">
       <div>
         <div className="">
           <h2 className="text-5xl font-semibold underline tracking-tight">

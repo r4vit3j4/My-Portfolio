@@ -5,7 +5,7 @@ import bg from "../../Assets/background/Whangaehu.png";
 
 function Right() {
   return (
-    <div className="hidden lg:inline-grid w-full relative h-full shadow-sm">
+    <div className="hidden lg:inline-grid min-h-screen w-full relative h-full shadow-sm">
       <motion.div
         initial="hidden"
         animate="visible"

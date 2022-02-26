@@ -21,7 +21,7 @@ const Header = () => {
           />
         </div>
         <div className="items-center flex">
-          <ul className="flex items-center space-x-3 sm:space-x-9 font-semibold text-xs sm:text-sm tracking-widest text-gray-600 z-20">
+          <ul className="flex items-center space-x-3 sm:space-x-9 font-semibold text-xs sm:text-base tracking-widest text-gray-600 z-20">
             <li
               onClick={() => scroll("skills")}
               className="cursor-pointer hover:bg-gray-600 p-2 rounded-md hover:text-white hover:shadow-lg"

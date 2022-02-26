@@ -42,10 +42,7 @@ const Contact = () => {
   };
 
   return (
-    <div
-      id="contact"
-      className="px-10 bg-[#f0f0f0] pt-10 min-h-[75vh] overflow-hidden"
-    >
+    <div id="contact" className="px-10 bg-[#f0f0f0] pb-10 overflow-hidden">
       <div className="mt-10 lg:mt-14">
         <h2 className="text-5xl text-center font-semibold text-slate-600 underline tracking-tight">
           Feel Free to Say Hi{" "}
@@ -55,7 +52,7 @@ const Contact = () => {
       <motion.div
         ref={ref}
         animate={animation}
-        className="mt-24 md:mt-32 w-full flex text-gray-800 flex-wrap gap-5 gap-y-10 items-center justify-evenly"
+        className="mt-24 md:mt-32 mb-10 w-full flex text-gray-800 flex-wrap gap-5 gap-y-10 items-center justify-evenly"
       >
         <a
           rel="noreferrer"

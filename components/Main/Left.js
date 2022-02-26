@@ -23,6 +23,7 @@ const Left = () => {
             },
           },
         }}
+        className="min-h-screen flex flex-col justify-between"
       >
         <Header />
         <Welcome />
