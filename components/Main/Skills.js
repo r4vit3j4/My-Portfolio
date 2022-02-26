@@ -25,7 +25,6 @@ const Skills = () => {
         transition: {
           type: "tween",
           duration: 0.3,
-          // delay: 0.1,
         },
       });
     }
@@ -71,7 +70,7 @@ const Skills = () => {
               ))}
             </Tab.List>
             <Tab.Panels>
-              <Tab.Panel className="flex mt-10 sm:mt-20 items-center justify-evenly flex-wrap gap-5">
+              <Tab.Panel className="flex mt-10 sm:mt-20 items-center justify-evenly flex-wrap gap-16">
                 {skills.languages.map((obj) => (
                   <div
                     key={obj.name}
@@ -89,7 +88,7 @@ const Skills = () => {
                   </div>
                 ))}
               </Tab.Panel>
-              <Tab.Panel className="flex mt-10 sm:mt-20 items-center justify-evenly flex-wrap gap-5">
+              <Tab.Panel className="flex mt-10 sm:mt-20 items-center justify-evenly flex-wrap gap-16">
                 {skills.frameworks.map((obj) => (
                   <div
                     key={obj.name}
@@ -107,7 +106,7 @@ const Skills = () => {
                   </div>
                 ))}
               </Tab.Panel>
-              <Tab.Panel className="flex mt-10 sm:mt-20 items-center justify-evenly flex-wrap gap-5">
+              <Tab.Panel className="flex mt-10 sm:mt-20 items-center justify-evenly flex-wrap gap-16">
                 {skills.databases.map((obj) => (
                   <div
                     key={obj.name}
@@ -125,7 +124,7 @@ const Skills = () => {
                   </div>
                 ))}
               </Tab.Panel>
-              <Tab.Panel className="flex mt-10 sm:mt-20 items-center justify-evenly flex-wrap gap-5">
+              <Tab.Panel className="flex mt-10 sm:mt-20 items-center justify-evenly flex-wrap gap-16">
                 {skills.tools.map((obj) => (
                   <div
                     key={obj.name}

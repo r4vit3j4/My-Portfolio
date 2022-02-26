@@ -1,8 +1,9 @@
 import Image from "next/image";
 import React, { useState } from "react";
+import arrow from "../../Assets/base/arrow-compressed.webp";
 
 const Welcome = () => {
-  const [isShown, SetIsShown] = useState(false);
+  // const [isShown, SetIsShown] = useState(false);
 
   return (
     <div className="p-10 mt-7 xl:mt-24 relative">
@@ -37,20 +38,16 @@ const Welcome = () => {
         </a>
       </div>
       <div className="mt-10">
-        <h3 className="font-bold text-xl text-gray-700">About Me</h3>
+        <p className="font-bold text-xl text-gray-700">About Me</p>
         <p className="text-lg mt-2">
           I&apos;m an undergraduate student from Indian Institute of Information
           Technology, Kottayam, pursuing Bachelor&apos;s degree in computer
           science and engineering
         </p>
       </div>
-      <div className="absolute bottom-11 right-3 sm:bottom-0 sm:right-10">
+      <div className="absolute h-8 w-8 bottom-11 right-3 sm:bottom-1 sm:right-10">
         <div className="relative h-8 w-8">
-          <Image
-            src="https://i.ibb.co/q9VzVLS/arrow-compressed.webp"
-            layout="fill"
-            alt=""
-          />
+          <Image className="" src={arrow} layout="fill" alt="" />
         </div>
       </div>
     </div>

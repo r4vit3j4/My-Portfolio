@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import logo from "../../Assets/base/logo.png";
 
 const scroll = (id) => {
   document.getElementById(id).scrollIntoView({
@@ -14,7 +15,7 @@ const Header = () => {
         <div className="relative h-16 w-16 object-contain flex-shrink-0">
           <Image
             className="object-contain"
-            src={"https://i.ibb.co/F6QxJwH/logo.png"}
+            src={logo}
             alt="logo"
             layout="fill"
           />

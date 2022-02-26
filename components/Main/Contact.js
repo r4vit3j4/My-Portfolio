@@ -46,8 +46,8 @@ const Contact = () => {
       id="contact"
       className="px-10 bg-[#f0f0f0] pt-10 min-h-[75vh] overflow-hidden"
     >
-      <div className="mt-10">
-        <h2 className="text-5xl text-center font-semibold text-gray-800 underline tracking-tight">
+      <div className="mt-10 lg:mt-14">
+        <h2 className="text-5xl text-center font-semibold text-slate-600 underline tracking-tight">
           Feel Free to Say Hi{" "}
           <HandIcon className="h-11 w-11 inline rotate-45" />
         </h2>
@@ -55,12 +55,12 @@ const Contact = () => {
       <motion.div
         ref={ref}
         animate={animation}
-        className="mt-24 md:mt-32 w-full flex flex-wrap gap-5 gap-y-10 items-center justify-evenly"
+        className="mt-24 md:mt-32 w-full flex text-gray-800 flex-wrap gap-5 gap-y-10 items-center justify-evenly"
       >
         <a
           rel="noreferrer"
           href="mailto:itsraviteja.r@gmail.com"
-          className="inline-flex flex-col items-center h-24 w-24 justify-center  hover:bg-gray-200 p-2 rounded-md"
+          className="inline-flex flex-col items-center h-24 w-24 justify-center  hover:bg-gray-300 p-2 rounded-md"
           target={"_blank"}
         >
           <MailIcon className="h-10 w-10" />
