@@ -66,7 +66,7 @@ export const projects = [
     content:
       "A clone of Netflix with Firebase sign in integrated with Stripe payments gateway and the TMDB API",
     site: "https://netflix-clone-95057.web.app/",
-    github: "https://github.com/r4vit3j4/instagram-clone",
+    github: "https://github.com/r4vit3j4/Netflix-clone",
     tags: [
       {
         name: "React",
