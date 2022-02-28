@@ -64,7 +64,7 @@ const Welcome = () => {
       <div className="sm:my-14 my-8">
         <a
           rel="noreferrer"
-          href="https://drive.google.com/file/d/1uLaPPJBCkH-T_RmtgV75j3PLhr5b02ze/view?usp=sharing"
+          href="https://drive.google.com/file/d/11IRqoT8y_aRfBr9lQiw7fdxO43AxKQwA/view?usp=sharing"
           target={"_blank"}
           className="px-3 py-2 font-bold bg-gray-600 text-white rounded-lg hover:bg-gray-700 shadow-md"
         >
